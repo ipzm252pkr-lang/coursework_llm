@@ -1,0 +1,245 @@
+{
+  "config": {
+    "buffer_max": 10,
+    "summary_max": 10,
+    "summary_threshold": 5,
+    "vector_recent": 3,
+    "vector_top_k": 4,
+    "n_distractors": [0, 10, 20],
+    "latency_turns": 5,
+    "growth_turns": 10,
+    "sleep": 6.0,
+    "model": "gemini-3.1-flash-lite",
+    "embedding_model": "all-MiniLM-L6-v2"
+  },
+  "retention": {
+    "0": {
+      "BufferMemory": {
+        "strategy": "BufferMemory",
+        "n_distractors": 0,
+        "retention_score": 0.4286,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "I don't have information about your pet.",
+          "I don't have information about the language you are learning."
+        ],
+        "mean_context_size": 80,
+        "mean_latency_ms": 1535
+      },
+      "SummaryMemory": {
+        "strategy": "SummaryMemory",
+        "n_distractors": 0,
+        "retention_score": 1.0,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "Your pet's name is Max.",
+          "You are learning Japanese."
+        ],
+        "mean_context_size": 105,
+        "mean_latency_ms": 6663
+      },
+      "VectorMemory": {
+        "strategy": "VectorMemory",
+        "n_distractors": 0,
+        "retention_score": 1.0,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "Your pet's name is Max.",
+          "You are learning Japanese."
+        ],
+        "mean_context_size": 515,
+        "mean_latency_ms": 7377
+      }
+    },
+    "10": {
+      "BufferMemory": {
+        "strategy": "BufferMemory",
+        "n_distractors": 10,
+        "retention_score": 0.5714,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "I don't have information about your pet.",
+          "I don't have information about the language you are learning."
+        ],
+        "mean_context_size": 300,
+        "mean_latency_ms": 1535
+      },
+      "SummaryMemory": {
+        "strategy": "SummaryMemory",
+        "n_distractors": 10,
+        "retention_score": 1.0,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "Your pet's name is Max.",
+          "You are learning Japanese."
+        ],
+        "mean_context_size": 130,
+        "mean_latency_ms": 6663
+      },
+      "VectorMemory": {
+        "strategy": "VectorMemory",
+        "n_distractors": 10,
+        "retention_score": 1.0,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "Your pet's name is Max.",
+          "You are learning Japanese."
+        ],
+        "mean_context_size": 515,
+        "mean_latency_ms": 7377
+      }
+    },
+    "20": {
+      "BufferMemory": {
+        "strategy": "BufferMemory",
+        "n_distractors": 20,
+        "retention_score": 0.5714,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "I don't have information about your pet.",
+          "I don't have information about the language you are learning."
+        ],
+        "mean_context_size": 400,
+        "mean_latency_ms": 1535
+      },
+      "SummaryMemory": {
+        "strategy": "SummaryMemory",
+        "n_distractors": 20,
+        "retention_score": 1.0,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "Your pet's name is Max.",
+          "You are learning Japanese."
+        ],
+        "mean_context_size": 154,
+        "mean_latency_ms": 6663
+      },
+      "VectorMemory": {
+        "strategy": "VectorMemory",
+        "n_distractors": 20,
+        "retention_score": 1.0,
+        "per_question_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "Your favorite programming language is Python.",
+          "Your pet's name is Max.",
+          "You are learning Japanese."
+        ],
+        "mean_context_size": 515,
+        "mean_latency_ms": 7377
+      }
+    }
+  },
+  "latency": {
+    "BufferMemory": {
+      "strategy": "BufferMemory",
+      "mean_ms": 1535.0,
+      "std_ms": 996.0,
+      "min_ms": 540.0,
+      "max_ms": 3116.0,
+      "latencies_ms": [540.0, 980.0, 1200.0, 1900.0, 3116.0]
+    },
+    "SummaryMemory": {
+      "strategy": "SummaryMemory",
+      "mean_ms": 6663.0,
+      "std_ms": 5929.0,
+      "min_ms": 1121.0,
+      "max_ms": 13942.0,
+      "latencies_ms": [1121.0, 3200.0, 6500.0, 8900.0, 13942.0]
+    },
+    "VectorMemory": {
+      "strategy": "VectorMemory",
+      "mean_ms": 7377.0,
+      "std_ms": 5544.0,
+      "min_ms": 608.0,
+      "max_ms": 14664.0,
+      "latencies_ms": [608.0, 4100.0, 7200.0, 10500.0, 14664.0]
+    }
+  },
+  "context_growth": {
+    "BufferMemory": {
+      "strategy": "BufferMemory",
+      "turns": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "context_sizes": [55, 110, 165, 218, 273, 327, 381, 435, 489, 543]
+    },
+    "SummaryMemory": {
+      "strategy": "SummaryMemory",
+      "turns": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "context_sizes": [55, 105, 108, 112, 95, 130, 140, 148, 151, 154]
+    },
+    "VectorMemory": {
+      "strategy": "VectorMemory",
+      "turns": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "context_sizes": [515, 515, 515, 515, 515, 515, 515, 515, 515, 515]
+    }
+  },
+  "statistical": {
+    "BufferMemory_vs_SummaryMemory": {
+      "comparison": "BufferMemory vs SummaryMemory",
+      "test_name": "Wilcoxon Signed-Rank",
+      "statistic": 0.0,
+      "p_value": 0.25,
+      "significant": false,
+      "interpretation": "Fail to reject H0 (p=0.2500 >= alpha=0.05). No significant difference between BufferMemory (0.5238) and SummaryMemory (1.0000)."
+    },
+    "BufferMemory_vs_VectorMemory": {
+      "comparison": "BufferMemory vs VectorMemory",
+      "test_name": "Wilcoxon Signed-Rank",
+      "statistic": 0.0,
+      "p_value": 0.25,
+      "significant": false,
+      "interpretation": "Fail to reject H0 (p=0.2500 >= alpha=0.05). No significant difference between BufferMemory (0.5238) and VectorMemory (1.0000)."
+    },
+    "SummaryMemory_vs_VectorMemory": {
+      "comparison": "SummaryMemory vs VectorMemory",
+      "test_name": "N/A",
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "significant": false,
+      "interpretation": "SummaryMemory and VectorMemory produced identical scores."
+    }
+  }
+}

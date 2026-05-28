@@ -1,0 +1,235 @@
+{
+  "retention": {
+    "0": {
+      "BufferMemory": {
+        "strategy": "BufferMemory",
+        "n_distractors": 0,
+        "retention_score": 0.4286,
+        "per_question_scores": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex!",
+          "You haven't mentioned your age to me yet, Alex! Would you like to share it?",
+          "You work in Kyiv, Alex!",
+          "You are a data scientist, Alex!",
+          "You haven't mentioned your favorite programming language to me yet, Alex! Which one do you prefer to use for your work as a data scientist?",
+          "You haven't told me your pet's name yet, Alex! What is it?",
+          "You haven't mentioned which language you're learning yet, Alex! Which one are you currently studying?"
+        ],
+        "mean_context_size": 138.2,
+        "mean_latency_ms": 5634.24
+      },
+      "SummaryMemory": {
+        "strategy": "SummaryMemory",
+        "n_distractors": 0,
+        "retention_score": 1.0,
+        "per_question_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old.",
+          "You work in Kyiv.",
+          "You are a data scientist.",
+          "You primarily use Python for your work at the startup.",
+          "Your dog's name is Max.",
+          "You are currently learning Japanese."
+        ],
+        "mean_context_size": 72.6,
+        "mean_latency_ms": 3159.88
+      },
+      "VectorMemory": {
+        "strategy": "VectorMemory",
+        "n_distractors": 0,
+        "retention_score": 1.0,
+        "per_question_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex!",
+          "You are 28 years old, Alex.",
+          "You work in Kyiv, Alex.",
+          "You are a data scientist, Alex.",
+          "Your favorite programming language is Python, Alex.",
+          "Your pet's name is Max, Alex!",
+          "You are learning Japanese, Alex."
+        ],
+        "mean_context_size": 105.4,
+        "mean_latency_ms": 7441.95
+      }
+    },
+    "10": {
+      "BufferMemory": {
+        "strategy": "BufferMemory",
+        "n_distractors": 10,
+        "retention_score": 0.5714,
+        "per_question_scores": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex. Are you taking a break from your data science work to chat, or are you fitting in a Japanese lesson before heading out for a walk with Max?",
+          "I don't actually know your age, Alex. You haven't mentioned it yet! Are you taking a break from your data science work to chat, or are you fitting in a Japanese lesson before heading out for a walk with Max?",
+          "I don't know which city you work in, Alex, as you haven't mentioned it yet. Are you taking a break from your data science work to chat, or are you fitting in a Japanese lesson before heading out for a walk with Max?",
+          "You mentioned that you work in data science, Alex, but you haven't specified your exact job title yet. Are you taking a break from your work to chat, or are you fitting in a Japanese lesson before heading out for a walk with Max?",
+          "I don't know what your favorite programming language is yet, Alex. Since you work in data science, is it Python or R, or perhaps something else? Are you taking a break from your work to chat, or are you fitting in a Japanese lesson before heading out for a walk with Max?",
+          "Your pet's name is Max, Alex! Are you taking a break from your data science work to chat, or are you fitting in a Japanese lesson before heading out for a walk with him?",
+          "You are learning Japanese, Alex! Are you taking a break from your data science work to practice, or are you heading out for a walk with Max soon?"
+        ],
+        "mean_context_size": 372.8,
+        "mean_latency_ms": 3035.25
+      },
+      "SummaryMemory": {
+        "strategy": "SummaryMemory",
+        "n_distractors": 10,
+        "retention_score": 1.0,
+        "per_question_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old, Alex.",
+          "You work in Kyiv.",
+          "You are a data scientist, Alex.",
+          "Your favorite programming language is Python, which you use in your work at your startup.",
+          "Your dog's name is Max.",
+          "You are learning Japanese."
+        ],
+        "mean_context_size": 175.5,
+        "mean_latency_ms": 3770.31
+      },
+      "VectorMemory": {
+        "strategy": "VectorMemory",
+        "n_distractors": 10,
+        "retention_score": 1.0,
+        "per_question_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex!",
+          "You are 28 years old, Alex.",
+          "You work in Kyiv, Alex.",
+          "You are a data scientist, Alex.",
+          "Your favorite programming language is Python, Alex.",
+          "Your pet's name is Max, Alex!",
+          "You are learning Japanese, Alex."
+        ],
+        "mean_context_size": 239.3,
+        "mean_latency_ms": 3717.58
+      }
+    },
+    "20": {
+      "BufferMemory": {
+        "strategy": "BufferMemory",
+        "n_distractors": 20,
+        "retention_score": 0.5714,
+        "per_question_scores": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex! How is Max doing today?",
+          "You haven't mentioned your age yet, Alex! How is Max doing today?",
+          "You work in Kyiv, Alex! How is Max doing today?",
+          "You are a data scientist, Alex! How is Max doing today?",
+          "You haven't mentioned your favorite programming language yet, Alex! How is Max doing today?",
+          "Your pet's name is Max, Alex! How is he doing today?",
+          "You haven't mentioned what language you are learning yet, Alex! How is Max doing today?"
+        ],
+        "mean_context_size": 531.4,
+        "mean_latency_ms": 3117.45
+      },
+      "SummaryMemory": {
+        "strategy": "SummaryMemory",
+        "n_distractors": 20,
+        "retention_score": 1.0,
+        "per_question_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex.",
+          "You are 28 years old, Alex.",
+          "You work in Kyiv, Alex.",
+          "You are a data scientist, Alex.",
+          "Your favorite programming language is Python, which you use in your work as a data scientist.",
+          "Your pet's name is Max.",
+          "You are currently learning Japanese."
+        ],
+        "mean_context_size": 223.2,
+        "mean_latency_ms": 3390.28
+      },
+      "VectorMemory": {
+        "strategy": "VectorMemory",
+        "n_distractors": 20,
+        "retention_score": 1.0,
+        "per_question_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_question_answers": [
+          "Your name is Alex!",
+          "You are 28 years old, Alex.",
+          "You work in Kyiv, Alex.",
+          "You are a data scientist, Alex.",
+          "Your favorite programming language is Python, Alex.",
+          "Your pet's name is Max, Alex!",
+          "You are learning Japanese, Alex."
+        ],
+        "mean_context_size": 235.1,
+        "mean_latency_ms": 5712.12
+      }
+    }
+  }
+}
