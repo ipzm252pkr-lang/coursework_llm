@@ -84,7 +84,7 @@ python visualize.py
 
 ## Технічний стек
 
-- **LLM**: Google Gemini 1.5 Flash (безкоштовний API)
+- **LLM**: Google Gemini 3.1 Flash (безкоштовний API)
 - **Embeddings**: `all-MiniLM-L6-v2` (384 виміри, sentence-transformers)
 - **Векторна БД**: ChromaDB (in-memory, cosine similarity)
 - **Статистика**: SciPy (Paired T-test / Wilcoxon)
