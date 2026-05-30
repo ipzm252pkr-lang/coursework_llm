@@ -18,9 +18,9 @@ memory_chatbot/
 ├── evaluation.py            # метрики та тестові сценарії
 ├── experiment.py            # головний скрипт експерименту
 ├── visualize.py             # побудова графіків для записки
-├── test_day1.py             # тести BufferMemory + Chatbot
-├── test_day2.py             # тести SummaryMemory
-├── test_day3.py             # тести VectorMemory
+├── test1.py                 # тести BufferMemory + Chatbot
+├── test2.py                 # тести SummaryMemory
+├── test3.py                 # тести VectorMemory
 ├── requirements.txt
 ├── .env.example
 └── README.md
